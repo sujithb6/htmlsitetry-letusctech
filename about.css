@@ -1,0 +1,254 @@
+body{
+    margin:0;
+    display:grid;
+    
+  
+}
+::-webkit-scrollbar {
+    width: 7px;
+    color:aquamarine;
+    margin: 0;
+    
+} 
+::-webkit-scrollbar-track {
+    background: black; 
+}
+::-webkit-scrollbar-thumb {
+    background: #888; 
+    border-radius: 10px;
+  }
+  
+  ::-webkit-scrollbar-thumb:hover {
+    background: #555; 
+  }
+
+  .banner{
+    background-image: url("https://assets.entrepreneur.com/content/3x2/2000/20151215195453-business-leader-group-front-leadership-team-professionals-businesspeople.jpeg?width=700&crop=2:1" )  ;
+    background-position-x: center;
+    background-position-y: center;
+         height: 250px;
+         mix-blend-mode: darken;
+         margin: 0;
+         width:100%;
+}
+
+h1 {
+    color:rgb(250, 174, 9);
+    text-align: center;
+   font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+   padding: 75px;
+   
+}
+
+
+
+  .cards{
+      margin-top:10px;
+      padding: 10px;
+      display:flex;
+      max-width: 98%;
+      margin-left: 20px;
+  }
+
+
+  .container{
+    position: fixed;
+        top: 0;
+      left: 3%;
+     width: 93%;
+   background-color: black;
+    display:flex;
+    color:white;
+    margin-bottom:5px; 
+    padding: 8px;
+    max-height: 170px;  
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    
+}
+
+.title{
+    color:aliceblue;
+    margin-left: 30px;
+  margin-top: 5px;
+  padding: 5px;
+   margin-right: 150px;
+   display:grid;
+   
+}
+
+
+
+.logo {
+        width: 50px;
+        margin-left: 10px;
+}
+
+.header{
+    padding: 40px;
+    left: 5%;
+}
+
+.component{
+    padding:50px;
+    margin: top 10px !important
+}
+
+.signin{
+
+    margin-left: 20px;
+    margin-top: 15px;
+    max-height: 50px;
+    max-width: 160px;
+    line-height :20px;
+    margin-right: 10px;
+    
+    }
+
+@media screen and (min-width:1088px){
+             .header{
+                 padding:45px;
+             }
+            .cards{
+      display:flex;
+
+      }
+
+}
+
+@media screen and (max-width:1088px){
+  .header{
+      padding: 60px;
+  }
+ .bar{
+     display:flex;
+ }
+  .cards{
+      display:grid;
+      margin-left: 20px;
+  }
+
+
+}
+
+@media screen and (max-width:778px){
+  .header{
+      padding: 0px;
+      font-size:0px;
+  }
+  ul{
+    display:grid;
+}
+  .container{
+   margin:0px;
+      display: grid;
+      max-height: 400px;
+     position:static;
+     padding: 15px;
+     border-bottom-left-radius: 0px;
+  border-bottom-right-radius: 0px;
+  width:96%;
+  }
+}
+
+
+@media screen and (max-width: 600px){
+    .container{
+        width:95%;
+    }
+  
+}
+
+@media screen and (max-width:400px){
+    .container{
+        width:95%;
+    }
+   
+}
+ 
+
+
+
+
+strong{
+    font-family: 'Courier New',Courier,monospace;
+}
+
+
+b{
+    font-size:20px;
+    font-family:'Courier New', Courier, monospace;
+}
+
+.items ul li{
+    color: #fff;
+    background: black;
+    display:inline-block;
+    height: 20px;
+    line-height: 20px; 
+    list-style: none;
+    padding: 10px;
+    border-radius: 5px;
+    margin-left: 20px;
+    font-size: large;
+   
+    }
+
+
+    .items li:hover {
+        cursor: pointer; 
+        background-color: aquamarine;
+      
+      }
+
+    li{
+      margin-right: 20px;
+        font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    }
+
+
+.page{
+    text-align: center;
+    shape-outside: 10px;
+    background-color:lightgray;
+    font-size:30px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    padding:10px;
+    border-bottom: 8px solid black;
+    padding-bottom:10px;
+    margin-bottom: 10px;
+}
+
+
+
+
+.heading{
+    font-size:20px;
+    background-color: #555;
+    text-align: center;
+    padding: 10px;
+    color:whitesmoke;
+    font-weight: bold;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 18px;
+    max-width: 30%;
+}
+
+.content-image{
+    min-width: 250px;
+    padding: 10px;
+       margin-bottom: 30px;
+            width:400px;
+          border-radius: 1000px;
+            box-shadow: 0 10px 20px 0 rgba(0, 0, 0, 0.6), 0 10px 20px 0 rgba(0, 0, 0, 0.2);
+}
+
+.content-image:hover{
+              
+                  box-shadow: 5 12px 25px 0 rgba(0, 0, 0, 01), 5 10px 25px 0 rgba(0, 0, 0, 0.5);
+
+}
+
+
+
+
